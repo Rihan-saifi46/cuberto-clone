@@ -1,0 +1,216 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.land{
+    height: 90vh; width: 98.5vw; background-color: #fff;
+}
+.nav{
+    width: 100%;  height: 4vw; display: flex;
+    justify-content: space-between; 
+}
+
+.l{
+    width: 10%; height: 100%; padding-left: 3vw; display: flex; align-items: flex-end;
+}
+.l>h1{
+    font-weight: 650; font-size: 1.6vw; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.r{
+    display: flex; width: 10%; justify-content: space-evenly;
+    align-self: flex-end;
+}
+.r>p{
+    font-size: 1.3vw; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-transform: capitalize;
+}
+.bottom{
+    height: calc(100% - 4vw); width: 60%;
+    display: flex; flex-direction: column; justify-content: center; align-items: flex-end;
+}
+.inner{
+    height: 6.5vw; width: 80%;   display: flex;
+    align-items: center; font-weight: 350;
+}
+.inner>p{
+    font-size: 6.8vw; font-weight: 380;
+}
+.in1{
+    display: flex; align-items: center; padding-bottom: 2.3vw;
+}
+.in2{
+    justify-content: space-evenly;
+}
+.in2>p{
+    font-weight: 350;
+}
+
+.in2>video{
+    height: 7vw;  border-radius: 45%;
+}
+.video{
+    height: 110vh; width: 98.5vw; 
+}
+.video>video{
+    height: 100%; width: 100%; object-fit: cover;
+}
+.page1{
+    height: 100vh; width: 98.5vw;  display: flex;
+}
+.pl{
+    height: 100%; width: 40%; display: flex; justify-content: flex-end;
+    align-items: center;
+}
+.pl>video{
+    height: 80%; width: 80%;
+}
+.pr{
+    height: 100%; width: 60%; 
+    padding: 10.3vw 10vw;  font-size: 2.1vw; display: flex;
+    justify-content: space-between; flex-direction: column;
+   
+}
+.pr>p{
+    line-height: 2.4vw;
+}
+.bb{
+    border: 1px solid #111; font-size: 1.8vw; height: 13vw; width: 25vw;
+    border-radius: 150px; background: none; position: relative; display: flex;
+    justify-content: center; align-items: center; overflow: hidden;
+}
+.bb::after{
+    content: "What we do"; position: absolute; top: 100%; left: 0;
+    height:0%; width: 100%; color: white; display: flex; justify-content: center;
+    align-items: center;
+    border-radius: 150px; transition: all .5s;
+}
+.bb:hover.bb::after{
+  top: 0%;  height: 100%; background-color: black;
+  color: white; 
+}
+.page2{
+    height: 360vh; width: 98.5vw; background-color: #111;  border-radius: 60px;
+    color: white;
+}
+.head{
+    width: 80%; height: 84vh;  
+}
+.h1{
+    height: 47%; width: 80%;
+    font-size: 10vw; color: white; font-weight: 300; display: flex;
+    justify-content: center; align-items: flex-end;
+}
+.h2{
+    display: flex; align-items: center; height: 30%;width: 85%; gap: 1.5vw;
+}
+.h2>p{
+    margin-top: -4vw; 
+}
+.h1>video{
+    width: 12vw; border-radius: 150px;
+}
+.cards{
+    height: calc(335vh - 86vh); width: 80%;  position: relative;
+}
+.card1{
+    position: absolute; top: 4vw; left: 10vw;
+}
+.card2{
+    position: absolute; top: 20vw; left: 47vw;
+}
+.card3{
+    position: absolute; top: 50vw; left: 10vw;
+}
+.card4{
+    position: absolute; top: 69vw; left: 47vw;
+}
+.one{
+    height: 92vh; width: 40%; border-radius: 10px;
+    display: flex; flex-direction: column; justify-content: space-between;
+}
+.one>img{
+    height: 90%; width: 100%; object-fit: cover; border-radius: 25px;
+}
+.page3{
+    height: 140vh; width: 98.5vw; background-color: white; border-radius: 60px;
+    position: relative; top: -8vw;
+}
+.h2-our{
+    width: 100%; height: 70vh; padding-left: 12vw; display: flex; align-items: center;
+}
+.h2-our>h2{
+    font-size: 11vw; font-weight: 300; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 9.6vw;
+}
+.bubble{
+    height: calc(140vh - 50vh); width: 100%; display: flex;  
+}
+.bl{
+    width: 50%; height: 100%;  display: flex; justify-content: center;
+    align-items: center;
+}
+.bl>video{
+    width: 70%; height: 80%;
+}
+.br{
+    width: 50%; height: 100%; 
+    display: flex; flex-direction: column; gap: 3vw; padding-top: 7vw;
+}
+.br>p{
+    font-size: 1.5vw; font-weight: 450;
+}
+.page4{
+    height: 165vh;width: 98.5vw; background-color: #111; border-radius: 40px;
+}
+.upp4{
+    height: 55%; width: 60%; justify-content: flex-end; align-items: flex-end;
+    font-size: 8vw; color: white; font-weight: 400; display: flex; flex-direction: column; 
+}
+.upp4>p{
+    height: 8.6vw;  display: flex; justify-content: center; align-items: center;
+}
+.low4{
+    height: calc(100% - 55%); width: 100%; overflow: hidden;
+}
+.imgc{
+    height: 100%; width: 220%;  display: flex; align-items: center; gap: 2.5vw;
+    padding-left: 22vw;
+}
+.imgc>img{
+    height: 65%; width: 16%;  border-radius: 10px;
+}
+.footer{
+    height: 150vh; width: 98.5vw; background-color: #111; 
+}
+.follow{
+    height: 35%; width: 100%;  font-size: 9vw;  overflow: hidden;
+}
+.an{
+    height: 100%; width: 100%; animation: follow 10s linear  infinite ; white-space: nowrap;
+    display: flex; 
+    gap: 6vw;   color: white; display: flex; align-items: center;
+}
+.follow>p{
+    white-space: nowrap; text-transform: capitalize;
+}
+@keyframes follow{
+    0%{
+       transform: translate(15%);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+.end{
+    height: calc(100% - 40%); width: 100%; 
+}
+.end>p{
+    width: 100%; height: 18%;  text-transform: capitalize; 
+    font-size: 3vw; display: flex; align-items: center; padding-left: 4vw; color: white;
+    font-weight: 400; border-bottom: 1px solid gray; position: relative;
+}
+.end>p::after{
+   content: "";  height: 0%; width: 100%; background-color: white; position: absolute; top: 0; left: 0;
+   transition: .5s ease-in-out;
+}
+.end>p:hover::after{
+   content: ""; height: 100%; background-color: rgb(255, 255, 255,0.5);
+}
